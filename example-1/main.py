@@ -2,7 +2,7 @@
 
 import qrcode
 
-img = qrcode.make("Пример простого QR-кода")
+img = qrcode.make("example-1")
 img.save("qr.png")
 
 exit(0)
